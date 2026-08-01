@@ -38,7 +38,7 @@ CSV_PATH = DATA / "prices.csv"
 HEALTH_PATH = DATA / "health.json"
 NOTIFY_PATH = ROOT / "notify_body.md"
 
-BASE = "https://www.apple.com/jp/shop/refurbished/mac/"
+BASE = "https://www.apple.com/jp/shop/refurbished/"
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
@@ -185,11 +185,36 @@ def dedupe(items):
     return sorted(out, key=lambda x: x["price"])
 
 
-def scrape(category: str, dump_html: bool = False):
-    url = BASE + category
+# 商品名から機種を判定する。
+# Apple の整備済ページは /mac/mac-studio を開いても中の JSON には Mac 全機種が
+# 入っているため、「どの URL で取得したか」は機種の判別に使えない。
+# 必ず商品名から判定すること。
+TYPE_RULES = [
+    ("mac-studio",   ["mac studio"]),
+    ("mac-pro",      ["mac pro"]),
+    ("mac-mini",     ["mac mini"]),
+    ("macbook-pro",  ["macbook pro"]),
+    ("macbook-air",  ["macbook air"]),
+    ("macbook-neo",  ["macbook neo"]),
+    ("imac",         ["imac"]),
+    ("display",      ["studio display", "pro display"]),
+]
+
+
+def classify(title: str) -> str:
+    t = title.lower()
+    for name, keys in TYPE_RULES:
+        if any(k in t for k in keys):
+            return name
+    return "other"
+
+
+def scrape(source: str, dump_html: bool = False):
+    """整備済 Mac ページを1回だけ取得し、商品名で機種を分類して返す"""
+    url = BASE + source
     page = fetch(url)
     if dump_html:
-        p = DATA / f"debug_{category}_{now_jst():%Y%m%d_%H%M%S}.html"
+        p = DATA / f"debug_{source}_{now_jst():%Y%m%d_%H%M%S}.html"
         p.write_text(page, encoding="utf-8")
         log(f"  HTML保存: {p.name} ({len(page):,} bytes)")
 
@@ -199,7 +224,7 @@ def scrape(category: str, dump_html: bool = False):
         items = extract_from_html(page)
         method = "html"
     for it in items:
-        it["category"] = category
+        it["type"] = classify(it["title"])
     return items, method
 
 
@@ -207,12 +232,16 @@ def scrape(category: str, dump_html: bool = False):
 # 突合
 # ----------------------------------------------------------------------------
 def item_key(it):
-    return f"{it['category']}|{it['part_number']}|{it['title']}|{it['price']}"
+    return f"{it['type']}|{it['part_number']}|{it['title']}|{it['price']}"
 
 
 def match(it, rule):
-    if rule.get("category") and it["category"] != rule["category"]:
-        return False
+    types = rule.get("type") or rule.get("types")
+    if types:
+        if isinstance(types, str):
+            types = [types]
+        if it["type"] not in types:
+            return False
     kw = rule.get("keyword", "")
     if kw and kw.lower() not in it["title"].lower():
         return False
@@ -254,28 +283,29 @@ def main():
     args = ap.parse_args()
 
     cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
-    categories = cfg.get("categories", ["mac-studio"])
+    source = cfg.get("source", "mac")
     rules = cfg.get("alerts", [])
     DATA.mkdir(exist_ok=True)
 
     # --- 取得 -----------------------------------------------------------
+    # 1ページに Mac 全機種が入っているので、取得は1回で足りる
     all_items, methods, errors = [], {}, []
-    for i, cat in enumerate(categories):
-        if i:
-            time.sleep(3)  # Apple に連続で叩かない
-        log(f"取得中: {cat}")
-        try:
-            items, method = scrape(cat, args.dump_html)
-        except Exception as e:
-            log(f"  !! {e}")
-            errors.append(f"{cat}: {e}")
-            continue
-        methods[cat] = method
-        all_items += items
-        log(f"  {len(items)}件 (抽出: {method})")
+    log(f"取得中: {BASE + source}")
+    try:
+        all_items, method = scrape(source, args.dump_html)
+        methods[source] = method
+        counts = {}
+        for it in all_items:
+            counts[it["type"]] = counts.get(it["type"], 0) + 1
+        log(f"  {len(all_items)}件 (抽出: {method})")
+        for t, n in sorted(counts.items(), key=lambda x: -x[1]):
+            log(f"    {t}: {n}件")
+    except Exception as e:
+        log(f"  !! {e}")
+        errors.append(f"{source}: {e}")
 
     if errors and not all_items:
-        log("すべてのカテゴリで取得に失敗しました")
+        log("ページの取得に失敗しました")
         set_output("has_new", "false")
         set_output("unhealthy", "true")
         sys.exit(1)
@@ -295,12 +325,16 @@ def main():
 
     new_items = [i for i in all_items if item_key(i) not in prev_keys]
 
-    # アラート条件に合う新着だけを通知対象にする
-    hits = []
+    # アラート条件に合う新着だけを通知対象にする。
+    # 複数の条件に当たっても1商品1回しか通知しない。
+    hits, hit_keys = [], set()
     for rule in rules:
         for it in new_items:
-            if match(it, rule):
-                hits.append({**it, "rule": rule.get("name", "条件")})
+            k = item_key(it)
+            if k in hit_keys or not match(it, rule):
+                continue
+            hit_keys.add(k)
+            hits.append({**it, "rule": rule.get("name", "条件")})
 
     # --- 自己監視 --------------------------------------------------------
     health = {}
@@ -327,12 +361,12 @@ def main():
                 f.write(json.dumps({"t": stamp, **it}, ensure_ascii=False) + "\n")
         new_csv = not CSV_PATH.exists()
         with open(CSV_PATH, "a", newline="", encoding="utf-8-sig") as f:
-            w = csv.DictWriter(f, fieldnames=["checked_at", "category", "title", "price", "part_number", "url"])
+            w = csv.DictWriter(f, fieldnames=["checked_at", "type", "title", "price", "part_number", "url"])
             if new_csv:
                 w.writeheader()
             for it in all_items:
                 w.writerow({"checked_at": stamp, **{k: it.get(k, "") for k in
-                            ["category", "title", "price", "part_number", "url"]}})
+                            ["type", "title", "price", "part_number", "url"]}})
         HEALTH_PATH.write_text(
             json.dumps({"checked_at": stamp, "zero_streak": zero_streak,
                         "total_items": len(all_items), "errors": errors,
@@ -354,13 +388,13 @@ def main():
         for it in sorted(hits, key=lambda x: x["price"]):
             lines.append(f"### ¥{it['price']:,} — {it['title']}")
             lines.append(f"- 条件: {it['rule']}")
-            lines.append(f"- カテゴリ: `{it['category']}`")
+            lines.append(f"- 機種: `{it['type']}`")
             if it["url"]:
                 lines.append(f"- [Apple のページで見る]({it['url']})")
             lines.append("")
         lines += ["---", "",
                   "整備済製品は人気構成だと数時間で売り切れます。買うなら早めに判断してください。",
-                  "", f"確認したページ: " + " / ".join(f"[{c}]({BASE + c})" for c in categories)]
+                  "", f"確認したページ: {BASE + source}"]
         body = "\n".join(lines)
         NOTIFY_PATH.write_text(body, encoding="utf-8")
         set_output("has_new", "true")

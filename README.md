@@ -59,23 +59,36 @@ iPhone の GitHub アプリを入れておくと、プッシュ通知で受け�
 
 ```json
 {
-  "categories": ["mac-studio", "mac-mini"],
+  "source": "mac",
   "alerts": [
-    { "name": "Mac Studio 40万円以下", "category": "mac-studio", "max_price": 400000 },
-    { "name": "M4 Max だけ",           "category": "mac-studio", "keyword": "M4 Max", "max_price": 450000 }
+    { "name": "Mac Studio の新着", "type": "mac-studio" },
+    { "name": "Mac mini の新着",   "type": "mac-mini" },
+    { "name": "M4 Max だけ",       "type": "mac-studio", "keyword": "M4 Max", "max_price": 450000 }
   ]
 }
 ```
 
 | キー | 意味 |
 |---|---|
-| `categories` | 取得するページ。`mac-studio` `mac-mini` `macbook-pro` `macbook-air` `imac` |
+| `source` | 取得するページ。`mac` のままでOK（後述） |
 | `alerts[].name` | 通知に表示される条件名 |
-| `alerts[].category` | 対象カテゴリ（省略で全カテゴリ） |
-| `alerts[].keyword` | 商品名に含まれる文字列（省略で全部） |
-| `alerts[].max_price` / `min_price` | 価格の上限・下限（円） |
+| `alerts[].type` | 機種。配列で複数指定も可（省略で全機種） |
+| `alerts[].keyword` | 商品名に含まれる文字列（省略で絞らない） |
+| `alerts[].max_price` / `min_price` | 価格の上限・下限（円、省略で絞らない） |
 
-**重要:** `categories` に無いカテゴリを `alerts` に書いても取得されません。両方に足してください。
+`type` に指定できる値:
+
+`mac-studio` / `mac-mini` / `mac-pro` / `macbook-pro` / `macbook-air` / `macbook-neo` / `imac` / `display` / `other`
+
+### なぜ「取得ページ」と「機種」が別なのか
+
+**Apple の整備済ページは、`/refurbished/mac/mac-studio` を開いても中のデータには Mac 全機種が入っています。**
+URL のカテゴリはブラウザ上での見た目のフィルタでしかありません。
+
+そのため、このツールは `/refurbished/mac` を1回だけ取得し、**商品名から機種を判定**しています
+（`watch.py` の `TYPE_RULES`）。URL を信用すると、Mac Studio の条件に MacBook Air が引っかかります。
+
+副次的な利点として、何機種を監視しても Apple へのアクセスは1回で済みます。
 
 ## 実行間隔を変える
 
@@ -100,6 +113,8 @@ GitHub の cron はもともと数分〜数十分の遅れが出ます。分単�
 | `data/history.jsonl` | 全チェックの記録を1行1件で追記。**これが資産になります** |
 | `data/prices.csv` | 同じ内容の CSV。Excel でそのまま開けます |
 | `data/health.json` | 直近の取得状況と連続0件回数 |
+
+`type` 列が入っているので、後から「Mac Studio だけ」「M4 Max だけ」といった集計が簡単にできます。
 
 1年回すと「M4 Max 64GB の整備済は年に何回出て、最安はいくらで、何時間で消えたか」が分かるようになります。
 

@@ -1,20 +1,21 @@
 {
-  "_comment": "監視対象と通知条件。ここを編集してコミットすれば次回実行から反映されます。",
+  "_comment1": "監視条件。ここを編集して push すれば次回実行から反映されます。",
+  "_comment2": "source は取得するページ。Apple は1ページに Mac 全機種を載せているので 'mac' のままでOK。",
 
-  "categories": ["mac-studio", "mac-mini"],
+  "source": "mac",
+
+  "_comment3": "type で機種を指定する。商品名から自動判定されるので、URLではなく実際の機種で正確に絞れる。",
+  "_comment4": "指定できる値: mac-studio / mac-mini / mac-pro / macbook-pro / macbook-air / macbook-neo / imac / display / other",
+  "_comment5": "keyword は商品名の部分一致。max_price / min_price は円。どれも省略可（省略＝絞らない）。",
 
   "alerts": [
     {
-      "name": "Mac Studio 40万円以下",
-      "category": "mac-studio",
-      "keyword": "",
-      "max_price": 400000
+      "name": "Mac Studio の新着",
+      "type": "mac-studio"
     },
     {
-      "name": "Mac mini 10万円以下",
-      "category": "mac-mini",
-      "keyword": "",
-      "max_price": 100000
+      "name": "Mac mini の新着",
+      "type": "mac-mini"
     }
   ],
 
