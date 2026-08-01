@@ -1,0 +1,25 @@
+{
+  "_comment": "監視対象と通知条件。ここを編集してコミットすれば次回実行から反映されます。",
+
+  "categories": ["mac-studio", "mac-mini"],
+
+  "alerts": [
+    {
+      "name": "Mac Studio 40万円以下",
+      "category": "mac-studio",
+      "keyword": "",
+      "max_price": 400000
+    },
+    {
+      "name": "Mac mini 10万円以下",
+      "category": "mac-mini",
+      "keyword": "",
+      "max_price": 100000
+    }
+  ],
+
+  "health": {
+    "_comment": "この回数だけ連続で0件だったら『壊れているかも』Issueを立てる。1時間おき実行なら12=半日",
+    "zero_streak_threshold": 12
+  }
+}

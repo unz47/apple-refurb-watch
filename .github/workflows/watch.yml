@@ -1,0 +1,79 @@
+name: Apple 整備済製品ウォッチ
+
+on:
+  schedule:
+    # UTC 表記。毎時17分に実行（毎時00分は混雑して遅延しやすいのでずらしている）
+    # 6時間おきにしたい場合は '17 */6 * * *' に変更
+    - cron: '17 * * * *'
+  workflow_dispatch:        # Actions タブから手動実行できるようにする
+
+permissions:
+  contents: write           # data/ をコミットするため
+  issues: write             # 新着 Issue を立てるため
+
+concurrency:
+  group: refurb-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: ラベルを用意（初回のみ実質的に作成される）
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "新着"   --color "0E8A16" --description "整備済製品の新着" --force
+          gh label create "要メンテ" --color "D93F0B" --description "抽出が壊れている可能性" --force
+
+      - name: 在庫をチェック
+        id: check
+        run: python3 watch.py
+
+      - name: 新着があれば Issue を立てる
+        if: steps.check.outputs.has_new == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "${{ steps.check.outputs.issue_title }}" \
+            --body-file notify_body.md \
+            --label "新着" \
+            --assignee "${{ github.repository_owner }}"
+
+      - name: 抽出が壊れていたら Issue を立てる
+        if: steps.check.outputs.unhealthy == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # 同じ Issue を量産しないよう、未クローズのものがあればスキップ
+          existing=$(gh issue list --label "要メンテ" --state open --json number --jq 'length')
+          if [ "$existing" = "0" ]; then
+            gh issue create \
+              --title "⚠️ 抽出結果が0件のままです（要メンテ）" \
+              --body-file docs/unhealthy_issue.md \
+              --label "要メンテ"
+          else
+            echo "既に未クローズの要メンテ Issue があるためスキップします"
+          fi
+
+      - name: データをコミット
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "chore: 在庫データを更新 ($(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M'))"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
