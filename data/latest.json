@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-02T20:33:31+09:00",
+  "checked_at": "2026-08-02T22:52:14+09:00",
   "methods": {
     "mac": "json"
   },
@@ -124,13 +124,6 @@
       "type": "macbook-air"
     },
     {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
-      "price": 236800,
-      "part_number": "FDH84J/A",
-      "url": "https://www.apple.com/jp/shop/product/fdh84j/a?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
-      "type": "macbook-air"
-    },
-    {
       "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スカイブルー",
       "price": 236800,
       "part_number": "FDHJ4J/A",
@@ -166,20 +159,6 @@
       "type": "imac"
     },
     {
-      "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スターライト",
-      "price": 253800,
-      "part_number": "G1LT0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1lt0j/a?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
-      "type": "macbook-air"
-    },
-    {
-      "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - ミッドナイト",
-      "price": 253800,
-      "part_number": "G1LW0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1lw0j/a?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
-      "type": "macbook-air"
-    },
-    {
       "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スカイブルー",
       "price": 253800,
       "part_number": "G1LZ0J/A",
@@ -198,13 +177,6 @@
       "price": 256800,
       "part_number": "G1HE0J/A",
       "url": "https://www.apple.com/jp/shop/product/g1he0j/a/15%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4-%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - ミッドナイト",
-      "price": 267800,
-      "part_number": "G1L62J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1l62j/a?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
       "type": "macbook-air"
     },
     {
@@ -870,13 +842,6 @@
       "price": 762800,
       "part_number": "G1N0AJ/A",
       "url": "https://www.apple.com/jp/shop/product/g1n0aj/a/16%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A820%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Pro%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
-      "type": "macbook-pro"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 18コアCPUと20コアGPUを搭載したApple M5 Proチップ - シルバー",
-      "price": 772800,
-      "part_number": "G1MJ8J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1mj8j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A820%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Pro%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=f2311c5f5a763be0b3706b692566301964582d3be8eeb032560cdb341aabeb4650a96025938b3d1fb8a7d76b64836346c80cc4ec1e259a61752decfd1c2308eeb45d95e7b3e71fbbcc7d44136edc5306",
       "type": "macbook-pro"
     },
     {
