@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-04T00:14:22+09:00",
+  "checked_at": "2026-08-04T02:19:25+09:00",
   "methods": {
     "mac": "json"
   },
@@ -730,13 +730,6 @@
       "price": 693800,
       "part_number": "G1MW8J/A",
       "url": "https://www.apple.com/jp/shop/product/g1mw8j/a/16%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A820%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Pro%E3%83%81%E3%83%83%E3%83%97Nano-texture%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=474195b47294e3fdd4fc716a0614364067e1616854eade342de23920ee22ba25d7028fd268e05b0c0be54cd517eb8810edcc8f91a7850f64c8169947e134663fabc8972d265fef9adf9edfbcd86a151f",
-      "type": "macbook-pro"
-    },
-    {
-      "title": "16インチMacBook Pro [整備済製品] 18コアCPUと20コアGPUを搭載したApple M5 Proチップ、Nano-textureディスプレイ - スペースブラック",
-      "price": 693800,
-      "part_number": "G1N08J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1n08j/a/16%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A820%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Pro%E3%83%81%E3%83%83%E3%83%97Nano-texture%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=474195b47294e3fdd4fc716a0614364067e1616854eade342de23920ee22ba25d7028fd268e05b0c0be54cd517eb8810edcc8f91a7850f64c8169947e134663fabc8972d265fef9adf9edfbcd86a151f",
       "type": "macbook-pro"
     },
     {
