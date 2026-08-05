@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-05T21:14:46+09:00",
+  "checked_at": "2026-08-05T23:33:17+09:00",
   "methods": {
     "mac": "json"
   },
@@ -86,13 +86,6 @@
       "price": 189800,
       "part_number": "FDHH4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdhh4j/a?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
-      "price": 204800,
-      "part_number": "G1L00J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1l00j/a?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
       "type": "macbook-air"
     },
     {
@@ -208,20 +201,6 @@
       "type": "imac"
     },
     {
-      "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スターライト",
-      "price": 253800,
-      "part_number": "G1LT0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1lt0j/a?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
-      "type": "macbook-air"
-    },
-    {
-      "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スカイブルー",
-      "price": 253800,
-      "part_number": "G1LZ0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1lz0j/a?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
-      "type": "macbook-air"
-    },
-    {
       "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M4チップ - スターライト",
       "price": 256800,
       "part_number": "G1DF0J/A",
@@ -318,13 +297,6 @@
       "part_number": "G1ER1J/A",
       "url": "https://www.apple.com/jp/shop/product/g1er1j/a/24%E3%82%A4%E3%83%B3%E3%83%81imac-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2cpu%E3%81%A810%E3%82%B3%E3%82%A2gpu%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9Fapple-m4%E3%83%81%E3%83%83%E3%83%97-%E3%82%AE%E3%82%AC%E3%83%93%E3%83%83%E3%83%88ethernet-nano-texture%E3%82%AC%E3%83%A9%E3%82%B9-%E3%83%94%E3%83%B3%E3%82%AF?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
       "type": "imac"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M4チップ - シルバー",
-      "price": 283800,
-      "part_number": "G1GS3J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1gs3j/a/13%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
-      "type": "macbook-air"
     },
     {
       "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スペースブラック",
