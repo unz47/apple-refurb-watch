@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-05T23:33:17+09:00",
+  "checked_at": "2026-08-06T01:51:40+09:00",
   "methods": {
     "mac": "json"
   },
@@ -884,13 +884,6 @@
       "price": 746800,
       "part_number": "G1MK1J/A",
       "url": "https://www.apple.com/jp/shop/product/g1mk1j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A840%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Max%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
-      "type": "macbook-pro"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 18コアCPUと32コアGPUを搭載したApple M5 Maxチップ - シルバー",
-      "price": 746800,
-      "part_number": "G1MKAJ/A",
-      "url": "https://www.apple.com/jp/shop/product/g1mkaj/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A832%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Max%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=f68950ed63a24cbbc12b60469be151bd39ab246bceabd831286407a309ca605d96d01999bd443e739e289943fac186153c477fcb18ac03519b62d38438a425fb1686a1beae876d5caca0003e618c1c4d",
       "type": "macbook-pro"
     },
     {
