@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-08T22:55:43+09:00",
+  "checked_at": "2026-08-08T23:48:35+09:00",
   "methods": {
     "mac": "json"
   },
@@ -86,13 +86,6 @@
       "price": 189800,
       "part_number": "FDHH4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdhh4j/a?fnode=6ac05edf7605093ae0514f73c6769a019a779ea54d412b7562be0f5474b43cb2c6a6ad6e3410456c4ad7e470f201b7f9f7692325203c8924fb6bd32149f88938d8b17065d28d3528b75885e0422ada7c",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スカイブルー",
-      "price": 204800,
-      "part_number": "G1L90J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1l90j/a?fnode=6ac05edf7605093ae0514f73c6769a019a779ea54d412b7562be0f5474b43cb2c6a6ad6e3410456c4ad7e470f201b7f9f7692325203c8924fb6bd32149f88938d8b17065d28d3528b75885e0422ada7c",
       "type": "macbook-air"
     },
     {
@@ -451,13 +444,6 @@
       "part_number": "G1L53J/A",
       "url": "https://www.apple.com/jp/shop/product/g1l53j/a?fnode=6ac05edf7605093ae0514f73c6769a019a779ea54d412b7562be0f5474b43cb2c6a6ad6e3410456c4ad7e470f201b7f9f7692325203c8924fb6bd32149f88938d8b17065d28d3528b75885e0422ada7c",
       "type": "macbook-air"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 14コアCPUと20コアGPUを搭載したApple M4 Proチップ - スペースブラック",
-      "price": 379800,
-      "part_number": "FX2J3J/A",
-      "url": "https://www.apple.com/jp/shop/product/fx2j3j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-14%E3%82%B3%E3%82%A2CPU%E3%81%A820%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4-Pro%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=6ac05edf7605093ae0514f73c6769a019a779ea54d412b7562be0f5474b43cb2c6a6ad6e3410456c4ad7e470f201b7f9f7692325203c8924fb6bd32149f88938d8b17065d28d3528b75885e0422ada7c",
-      "type": "macbook-pro"
     },
     {
       "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ、 Nano-textureディスプレイ - スペースブラック",
