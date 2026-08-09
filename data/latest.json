@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-09T13:35:16+09:00",
+  "checked_at": "2026-08-09T14:56:13+09:00",
   "methods": {
     "mac": "json"
   },
@@ -59,34 +59,6 @@
       "part_number": "FHFJ4J/A",
       "url": "https://www.apple.com/jp/shop/product/fhfj4j/a/13%E3%82%A4%E3%83%B3%E3%83%81macbook-neo-%E3%83%96%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5?fnode=cbdee069aef12349dbddb91cffd5a796a55dcfa2b314e365381f2d199d9a50aa47ea146857ad1e9e1bad4b8f56b608ff02ba5330a24a6eba3a45b762f4a96a259df153416541e3bea59c246756229a85",
       "type": "macbook-neo"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M4チップ - スカイブルー",
-      "price": 146800,
-      "part_number": "FC6T4J/A",
-      "url": "https://www.apple.com/jp/shop/product/fc6t4j/a/13%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC?fnode=cbdee069aef12349dbddb91cffd5a796a55dcfa2b314e365381f2d199d9a50aa47ea146857ad1e9e1bad4b8f56b608ff02ba5330a24a6eba3a45b762f4a96a259df153416541e3bea59c246756229a85",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M4チップ - シルバー",
-      "price": 146800,
-      "part_number": "FW0W3J/A",
-      "url": "https://www.apple.com/jp/shop/product/fw0w3j/a/13%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=cbdee069aef12349dbddb91cffd5a796a55dcfa2b314e365381f2d199d9a50aa47ea146857ad1e9e1bad4b8f56b608ff02ba5330a24a6eba3a45b762f4a96a259df153416541e3bea59c246756229a85",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M4チップ - スターライト",
-      "price": 146800,
-      "part_number": "FW0Y3J/A",
-      "url": "https://www.apple.com/jp/shop/product/fw0y3j/a/13%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88?fnode=cbdee069aef12349dbddb91cffd5a796a55dcfa2b314e365381f2d199d9a50aa47ea146857ad1e9e1bad4b8f56b608ff02ba5330a24a6eba3a45b762f4a96a259df153416541e3bea59c246756229a85",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M4チップ - ミッドナイト",
-      "price": 146800,
-      "part_number": "FW123J/A",
-      "url": "https://www.apple.com/jp/shop/product/fw123j/a/13%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88?fnode=cbdee069aef12349dbddb91cffd5a796a55dcfa2b314e365381f2d199d9a50aa47ea146857ad1e9e1bad4b8f56b608ff02ba5330a24a6eba3a45b762f4a96a259df153416541e3bea59c246756229a85",
-      "type": "macbook-air"
     },
     {
       "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M5チップ - シルバー",
