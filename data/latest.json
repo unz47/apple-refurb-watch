@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-11T06:56:27+09:00",
+  "checked_at": "2026-08-11T07:55:16+09:00",
   "methods": {
     "mac": "json"
   },
@@ -388,13 +388,6 @@
       "part_number": "G1EL3J/A",
       "url": "https://www.apple.com/jp/shop/product/g1el3j/a/24%E3%82%A4%E3%83%B3%E3%83%81imac-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2cpu%E3%81%A810%E3%82%B3%E3%82%A2gpu%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9Fapple-m4%E3%83%81%E3%83%83%E3%83%97-%E3%82%AE%E3%82%AC%E3%83%93%E3%83%83%E3%83%88ethernet-nano-texture%E3%82%AC%E3%83%A9%E3%82%B9-%E3%82%A4%E3%82%A8%E3%83%AD%E3%83%BC?fnode=bc08622975b84f30b2031dacc8d668889c675b94775faa089f53bd9f79497d2b29ea6ce2f1cc5097687819342c1fb34648fde71e7da91d143ec3eaff4878ded314da340163a58b16a543a4b4a8c0edf4",
       "type": "imac"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 15コアCPUと16コアGPUを搭載したApple M5 Proチップ - スペースブラック",
-      "price": 363800,
-      "part_number": "FGDR4J/A",
-      "url": "https://www.apple.com/jp/shop/product/fgdr4j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-15%E3%82%B3%E3%82%A2CPU%E3%81%A816%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Pro%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=bc08622975b84f30b2031dacc8d668889c675b94775faa089f53bd9f79497d2b29ea6ce2f1cc5097687819342c1fb34648fde71e7da91d143ec3eaff4878ded314da340163a58b16a543a4b4a8c0edf4",
-      "type": "macbook-pro"
     },
     {
       "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スペースブラック",
