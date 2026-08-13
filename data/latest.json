@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-13T14:02:36+09:00",
+  "checked_at": "2026-08-13T15:43:45+09:00",
   "methods": {
     "mac": "json"
   },
@@ -65,13 +65,6 @@
       "price": 186800,
       "part_number": "FYJG3J/A",
       "url": "https://www.apple.com/jp/shop/product/fyjg3j/a/Apple-Studio-Display-%E6%A8%99%E6%BA%96%E3%82%AC%E3%83%A9%E3%82%B9%E5%82%BE%E3%81%8D%E3%82%92%E8%AA%BF%E6%95%B4%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
-      "type": "display"
-    },
-    {
-      "title": "Apple Studio Display - 標準ガラス、VESAマウントアダプタ [整備済製品]",
-      "price": 186800,
-      "part_number": "FYJH3J/A",
-      "url": "https://www.apple.com/jp/shop/product/fyjh3j/a/Apple-Studio-Display-%E6%A8%99%E6%BA%96%E3%82%AC%E3%83%A9%E3%82%B9VESA%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%88%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
       "type": "display"
     },
     {
@@ -164,13 +157,6 @@
       "part_number": "FDVQ4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdvq4j/a?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
       "type": "macbook-air"
-    },
-    {
-      "title": "Apple Studio Display - Nano-textureガラス、VESAマウントアダプタ [整備済製品]",
-      "price": 226800,
-      "part_number": "FYJL3J/A",
-      "url": "https://www.apple.com/jp/shop/product/fyjl3j/a/Apple-Studio-Display-Nano-texture%E3%82%AC%E3%83%A9%E3%82%B9VESA%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%88%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
-      "type": "display"
     },
     {
       "title": "Apple Studio Display - Nano-textureガラス、傾きを調整できるスタンド [整備済製品]",
@@ -334,13 +320,6 @@
       "type": "display"
     },
     {
-      "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
-      "price": 274800,
-      "part_number": "G1KL0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1kl0j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
-      "type": "macbook-pro"
-    },
-    {
       "title": "24インチiMac [整備済製品] 10コアCPUと10コアGPUを搭載したApple M4チップ、ギガビットEthernet、Nano-textureガラス - シルバー",
       "price": 275800,
       "part_number": "G1EH1J/A",
@@ -374,13 +353,6 @@
       "part_number": "FDE54J/A",
       "url": "https://www.apple.com/jp/shop/product/fde54j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
       "type": "macbook-pro"
-    },
-    {
-      "title": "Studio Display [整備済製品] - 標準ガラス - 傾きと高さを調整できるスタンド",
-      "price": 288800,
-      "part_number": "FFEW4J/A",
-      "url": "https://www.apple.com/jp/shop/product/ffew4j/a/Studio-Display-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-%E6%A8%99%E6%BA%96%E3%82%AC%E3%83%A9%E3%82%B9-%E5%82%BE%E3%81%8D%E3%81%A8%E9%AB%98%E3%81%95%E3%82%92%E8%AA%BF%E6%95%B4%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
-      "type": "display"
     },
     {
       "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
@@ -472,13 +444,6 @@
       "part_number": "G1LX0J/A",
       "url": "https://www.apple.com/jp/shop/product/g1lx0j/a?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
       "type": "macbook-air"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スペースブラック",
-      "price": 348800,
-      "part_number": "G1KK2J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1kk2j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=d102e03a2851a72c4dc90cff1714e873dee9a4fe6379039f5b935b97d6ed943d19eeda624f650ef01d4cffddd978c6858427f58c484ee7fdb604f06309c7b3e355bda41cf8af5123a49ca0b02b9382ce",
-      "type": "macbook-pro"
     },
     {
       "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
