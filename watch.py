@@ -26,7 +26,7 @@ import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
-from html import unescape
+from html import escape, unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -265,6 +265,70 @@ def notify_macos(title, message):
         pass
 
 
+def build_email_html(hits, stamp: str) -> str:
+    """メール用のHTML本文を組み立てる"""
+    cards = []
+    for it in sorted(hits, key=lambda x: x["price"]):
+        link = ""
+        if it.get("url"):
+            link = (f'<a href="{escape(it["url"], quote=True)}" '
+                    'style="display:inline-block;margin-top:12px;padding:10px 18px;'
+                    'background:#0969da;color:#ffffff;text-decoration:none;'
+                    'border-radius:6px;font-size:14px;font-weight:600;">Appleで見る</a>')
+        cards.append(
+            '<div style="border:1px solid #d0d7de;border-radius:10px;padding:18px;margin-bottom:14px;">'
+            f'<div style="font-size:22px;font-weight:700;color:#1a7f37;">¥{it["price"]:,}</div>'
+            f'<div style="font-size:15px;line-height:1.5;margin:8px 0;color:#1f2328;">{escape(it["title"])}</div>'
+            f'<div style="font-size:12px;color:#656d76;">条件: {escape(it["rule"])} ／ 機種: {escape(it["type"])}</div>'
+            f'{link}</div>'
+        )
+    return (
+        '<html><body style="margin:0;padding:20px;background:#f6f8fa;'
+        'font-family:-apple-system,BlinkMacSystemFont,\'Hiragino Sans\',sans-serif;">'
+        '<div style="max-width:600px;margin:0 auto;background:#ffffff;'
+        'border-radius:12px;padding:24px;">'
+        '<h2 style="margin:0 0 4px;font-size:19px;color:#1f2328;">Apple 整備済製品に新着</h2>'
+        f'<p style="margin:0 0 20px;font-size:13px;color:#656d76;">{escape(stamp)} 時点</p>'
+        + "".join(cards) +
+        '<p style="font-size:13px;color:#656d76;line-height:1.6;margin-top:20px;">'
+        '整備済製品は人気構成だと数時間で売り切れます。買うなら早めに判断してください。</p>'
+        '</div></body></html>'
+    )
+
+
+def send_email(subject: str, text_body: str, html_body: str) -> bool:
+    """SMTP でメールを送る。環境変数が揃っていない時は何もしない。"""
+    to = os.environ.get("MAIL_TO")
+    user = os.environ.get("MAIL_USER")
+    password = os.environ.get("MAIL_PASSWORD")
+    host = os.environ.get("SMTP_HOST", "smtp.mail.me.com")
+    port = int(os.environ.get("SMTP_PORT", "587"))
+    if not (to and user and password):
+        log("メール設定なし（MAIL_TO / MAIL_USER / MAIL_PASSWORD）— 送信をスキップ")
+        return False
+
+    import smtplib
+    from email.message import EmailMessage
+
+    msg = EmailMessage()
+    msg["Subject"] = subject
+    msg["From"] = user
+    msg["To"] = to
+    msg.set_content(text_body)
+    msg.add_alternative(html_body, subtype="html")
+    try:
+        with smtplib.SMTP(host, port, timeout=30) as s:
+            s.starttls()
+            s.login(user, password)
+            s.send_message(msg)
+        log(f"メール送信: {to}")
+        return True
+    except Exception as e:
+        # 送信失敗でワークフロー全体を落とさない（Issue は別途立つ）
+        log(f"!! メール送信に失敗: {type(e).__name__}: {e}")
+        return False
+
+
 def set_output(key, value):
     """GitHub Actions の step output に値を渡す"""
     path = os.environ.get("GITHUB_OUTPUT")
@@ -397,11 +461,12 @@ def main():
                   "", f"確認したページ: {BASE + source}"]
         body = "\n".join(lines)
         NOTIFY_PATH.write_text(body, encoding="utf-8")
+        subject = f"整備済に新着 {len(hits)}件 — 最安 ¥{min(h['price'] for h in hits):,}"
         set_output("has_new", "true")
-        set_output("issue_title",
-                   f"整備済に新着 {len(hits)}件 — 最安 ¥{min(h['price'] for h in hits):,}")
+        set_output("issue_title", subject)
         head = min(hits, key=lambda x: x["price"])
         notify_macos(f"整備済に新着 {len(hits)}件", f"¥{head['price']:,} {head['title']}")
+        send_email(subject, body, build_email_html(hits, f"{now_jst():%Y-%m-%d %H:%M} (JST)"))
         print("\n" + body + "\n")
     else:
         set_output("has_new", "false")

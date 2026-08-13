@@ -36,6 +36,13 @@ jobs:
 
       - name: 在庫をチェック
         id: check
+        env:
+          # メール通知の設定（Secrets が未登録なら送信はスキップされます）
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          SMTP_HOST: ${{ vars.SMTP_HOST || 'smtp.mail.me.com' }}
+          SMTP_PORT: ${{ vars.SMTP_PORT || '587' }}
         run: python3 watch.py
 
       - name: 新着があれば Issue を立てる
