@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-14T15:41:10+09:00",
+  "checked_at": "2026-08-14T17:36:54+09:00",
   "methods": {
     "mac": "json"
   },
@@ -59,13 +59,6 @@
       "part_number": "FHFJ4J/A",
       "url": "https://www.apple.com/jp/shop/product/fhfj4j/a/13%E3%82%A4%E3%83%B3%E3%83%81macbook-neo-%E3%83%96%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5?fnode=12657de6e153a7a5b34b12b705e0a789a65c77a4cad6e6d057bb3f82071b32a95681974fc77893130ca292ba344a7f9877619c5fc2c9eba5091b95a6c63f1aeb5fdfdbce0194ecfa5ad49a9db8331a93",
       "type": "macbook-neo"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M5チップ - スターライト",
-      "price": 189800,
-      "part_number": "FDHA4J/A",
-      "url": "https://www.apple.com/jp/shop/product/fdha4j/a?fnode=12657de6e153a7a5b34b12b705e0a789a65c77a4cad6e6d057bb3f82071b32a95681974fc77893130ca292ba344a7f9877619c5fc2c9eba5091b95a6c63f1aeb5fdfdbce0194ecfa5ad49a9db8331a93",
-      "type": "macbook-air"
     },
     {
       "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M5チップ - シルバー",
