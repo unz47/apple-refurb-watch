@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-15T22:42:00+09:00",
+  "checked_at": "2026-08-15T23:36:57+09:00",
   "methods": {
     "mac": "json"
   },
@@ -33,17 +33,17 @@
       "type": "macbook-neo"
     },
     {
-      "title": "MacBook Neo [整備済製品] Apple A18 Pro チップ、Touch ID - シルバー",
-      "price": 116800,
-      "part_number": "FHFC4J/A",
-      "url": "https://www.apple.com/jp/shop/product/fhfc4j/a/macbook-neo-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-apple-a18-pro-%E3%83%81%E3%83%83%E3%83%97-touch-id-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
-      "type": "macbook-neo"
-    },
-    {
       "title": "MacBook Neo [整備済製品] Apple A18 Pro チップ、Touch ID - シトラス",
       "price": 116800,
       "part_number": "FHFE4J/A",
       "url": "https://www.apple.com/jp/shop/product/fhfe4j/a/macbook-neo-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-apple-a18-pro-%E3%83%81%E3%83%83%E3%83%97-touch-id-%E3%82%B7%E3%83%88%E3%83%A9%E3%82%B9?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
+      "type": "macbook-neo"
+    },
+    {
+      "title": "MacBook Neo [整備済製品] Apple A18 Pro チップ、Touch ID - シルバー",
+      "price": 116800,
+      "part_number": "FHFC4J/A",
+      "url": "https://www.apple.com/jp/shop/product/fhfc4j/a/macbook-neo-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-apple-a18-pro-%E3%83%81%E3%83%83%E3%83%97-touch-id-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
       "type": "macbook-neo"
     },
     {
@@ -61,17 +61,17 @@
       "type": "macbook-neo"
     },
     {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M5チップ - シルバー",
-      "price": 189800,
-      "part_number": "FDH74J/A",
-      "url": "https://www.apple.com/jp/shop/product/fdh74j/a?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
-      "type": "macbook-air"
-    },
-    {
       "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M5チップ - スターライト",
       "price": 189800,
       "part_number": "FDHA4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdha4j/a?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
+      "type": "macbook-air"
+    },
+    {
+      "title": "13インチMacBook Air [整備済製品] 10コアCPUと8コアGPUを搭載したApple M5チップ - シルバー",
+      "price": 189800,
+      "part_number": "FDH74J/A",
+      "url": "https://www.apple.com/jp/shop/product/fdh74j/a?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
       "type": "macbook-air"
     },
     {
@@ -334,17 +334,17 @@
       "type": "macbook-pro"
     },
     {
-      "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スペースブラック",
-      "price": 318800,
-      "part_number": "FDE34J/A",
-      "url": "https://www.apple.com/jp/shop/product/fde34j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
-      "type": "macbook-pro"
-    },
-    {
       "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
       "price": 318800,
       "part_number": "FDE64J/A",
       "url": "https://www.apple.com/jp/shop/product/fde64j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
+      "type": "macbook-pro"
+    },
+    {
+      "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スペースブラック",
+      "price": 318800,
+      "part_number": "FDE34J/A",
+      "url": "https://www.apple.com/jp/shop/product/fde34j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=13b58b4fffa77f0720b6385decd3231382f5f3b4b76c66c279a708846f6505530477fa8d5e774d89140275737a1cc109a57f000aad96bf495160d1e4c4e62b51f77adc16e32d6e6bcb97f3ddfa2acdc7",
       "type": "macbook-pro"
     },
     {
