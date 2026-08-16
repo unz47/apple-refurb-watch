@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-17T00:34:04+09:00",
+  "checked_at": "2026-08-17T01:40:37+09:00",
   "methods": {
     "mac": "json"
   },
@@ -989,13 +989,6 @@
       "price": 1095800,
       "part_number": "G1N12J/A",
       "url": "https://www.apple.com/jp/shop/product/g1n12j/a/16%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A832%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Max%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=4fc9e11e5fcc7ec377b9d20384b79b09822cf8debaf062a265ef56e45b78d15df0913ea55debcb29b59f261cb8c284d8371b1aa58babec9c684a602b5e41cb89bcf9905a7cb6d6426da2a2acbeb83320",
-      "type": "macbook-pro"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 18コアCPUと40コアGPUを搭載したApple M5 Maxチップ - スペースブラック",
-      "price": 1144800,
-      "part_number": "G1MN6J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1mn6j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-18%E3%82%B3%E3%82%A2CPU%E3%81%A840%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5-Max%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=4fc9e11e5fcc7ec377b9d20384b79b09822cf8debaf062a265ef56e45b78d15df0913ea55debcb29b59f261cb8c284d8371b1aa58babec9c684a602b5e41cb89bcf9905a7cb6d6426da2a2acbeb83320",
       "type": "macbook-pro"
     },
     {
