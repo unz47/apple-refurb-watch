@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-17T20:37:40+09:00",
+  "checked_at": "2026-08-17T22:03:55+09:00",
   "methods": {
     "mac": "json"
   },
@@ -450,13 +450,6 @@
       "price": 387800,
       "part_number": "G1KJ3J/A",
       "url": "https://www.apple.com/jp/shop/product/g1kj3j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-Nano-texture%E3%83%87%E3%82%A3%E3%82%B9%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=0c5270533e0aa6068ec38b280e24202961bf15d2e5701c7b3fcfe6c59b5c53695279792455b0e9fb4cbebc650b0bab8c7d6b0883371590612c4e89621208e7a431d39d5d180c8a56c8ba856bec2d7f20",
-      "type": "macbook-pro"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - シルバー",
-      "price": 394800,
-      "part_number": "G1KN0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1kn0j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=0c5270533e0aa6068ec38b280e24202961bf15d2e5701c7b3fcfe6c59b5c53695279792455b0e9fb4cbebc650b0bab8c7d6b0883371590612c4e89621208e7a431d39d5d180c8a56c8ba856bec2d7f20",
       "type": "macbook-pro"
     },
     {
