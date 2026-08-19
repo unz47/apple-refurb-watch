@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-19T14:45:18+09:00",
+  "checked_at": "2026-08-19T16:03:31+09:00",
   "methods": {
     "mac": "json"
   },
@@ -79,13 +79,6 @@
       "price": 189800,
       "part_number": "FDHH4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdhh4j/a?fnode=5bddfef2b396ee108ee4cc2849325611ca8d16f0726107a59f37fd7d4da9f2cd07ef57742ffc466beb115507a73a4644bacdcb3027e19ec248005af5ba7061b05160cb22db6f1492f3dc463e4c340c36",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スターライト",
-      "price": 204800,
-      "part_number": "G1L30J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1l30j/a?fnode=5bddfef2b396ee108ee4cc2849325611ca8d16f0726107a59f37fd7d4da9f2cd07ef57742ffc466beb115507a73a4644bacdcb3027e19ec248005af5ba7061b05160cb22db6f1492f3dc463e4c340c36",
       "type": "macbook-air"
     },
     {
@@ -192,13 +185,6 @@
       "part_number": "G1E21J/A",
       "url": "https://www.apple.com/jp/shop/product/g1e21j/a/24%E3%82%A4%E3%83%B3%E3%83%81iMac-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-8%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=5bddfef2b396ee108ee4cc2849325611ca8d16f0726107a59f37fd7d4da9f2cd07ef57742ffc466beb115507a73a4644bacdcb3027e19ec248005af5ba7061b05160cb22db6f1492f3dc463e4c340c36",
       "type": "imac"
-    },
-    {
-      "title": "14インチMacBook Pro [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スペースブラック",
-      "price": 244800,
-      "part_number": "FDE04J/A",
-      "url": "https://www.apple.com/jp/shop/product/fde04j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=5bddfef2b396ee108ee4cc2849325611ca8d16f0726107a59f37fd7d4da9f2cd07ef57742ffc466beb115507a73a4644bacdcb3027e19ec248005af5ba7061b05160cb22db6f1492f3dc463e4c340c36",
-      "type": "macbook-pro"
     },
     {
       "title": "24インチiMac [整備済製品] 10コアCPUと10コアGPUを搭載したApple M4チップ、ギガビットEthernet - シルバー",
