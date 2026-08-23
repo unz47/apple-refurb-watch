@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T13:50:46+09:00",
+  "checked_at": "2026-08-23T14:43:03+09:00",
   "methods": {
     "mac": "json"
   },
@@ -429,13 +429,6 @@
       "price": 317800,
       "part_number": "G1E35J/A",
       "url": "https://www.apple.com/jp/shop/product/g1e35j/a/24%E3%82%A4%E3%83%B3%E3%83%81iMac-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-8%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%82%A4%E3%82%A8%E3%83%AD%E3%83%BC?fnode=1a5a6ae47d41e2ee7b75c3b62bd30e0b15633fb9b761123bce931d99ca6a8c27164d0f3f7567c9abceb8fe368b49badb08be4f98548d69b70ca7917d487f2d5b6725812efc19ba7d81869264c28eb7f9",
-      "type": "imac"
-    },
-    {
-      "title": "24インチiMac [整備済製品] 8コアCPUと8コアGPUを搭載したApple M4チップ - パープル",
-      "price": 317800,
-      "part_number": "G1E75J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1e75j/a/24%E3%82%A4%E3%83%B3%E3%83%81iMac-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-8%E3%82%B3%E3%82%A2CPU%E3%81%A88%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4%E3%83%81%E3%83%83%E3%83%97-%E3%83%91%E3%83%BC%E3%83%97%E3%83%AB?fnode=1a5a6ae47d41e2ee7b75c3b62bd30e0b15633fb9b761123bce931d99ca6a8c27164d0f3f7567c9abceb8fe368b49badb08be4f98548d69b70ca7917d487f2d5b6725812efc19ba7d81869264c28eb7f9",
       "type": "imac"
     },
     {
