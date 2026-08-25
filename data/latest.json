@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-25T19:48:11+09:00",
+  "checked_at": "2026-08-25T20:41:22+09:00",
   "methods": {
     "mac": "json"
   },
@@ -198,13 +198,6 @@
       "price": 236800,
       "part_number": "FDHJ4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdhj4j/a?fnode=789fe64dcfa0963c26b8263d5ea045dddb463aba0b9571de347fd925037aedbfb90330857e00f8d4a5d084fa51dfb6b2ee74046a768e2d602d662c3df553d8c4c5b717b46249fab6626e67a33b0ff918",
-      "type": "macbook-air"
-    },
-    {
-      "title": "15インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M4チップ - シルバー",
-      "price": 240800,
-      "part_number": "FC6J4J/A",
-      "url": "https://www.apple.com/jp/shop/product/fc6j4j/a/15%E3%82%A4%E3%83%B3%E3%83%81MacBook-Air-%5B%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81%5D-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M4-%E3%83%81%E3%83%83%E3%83%97-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=789fe64dcfa0963c26b8263d5ea045dddb463aba0b9571de347fd925037aedbfb90330857e00f8d4a5d084fa51dfb6b2ee74046a768e2d602d662c3df553d8c4c5b717b46249fab6626e67a33b0ff918",
       "type": "macbook-air"
     },
     {
