@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-02T23:27:45+09:00",
+  "checked_at": "2026-09-03T03:40:05+09:00",
   "methods": {
     "mac": "json"
   },
@@ -86,13 +86,6 @@
       "price": 189800,
       "part_number": "FDHH4J/A",
       "url": "https://www.apple.com/jp/shop/product/fdhh4j/a?fnode=7f80a42303cb7875b2926fda1af41d14b8c4f99b4ed4a53c5423e67acf56354c44a54ed2af4a277e223f511b161475b9e86dd5955ae3e4bdece5b97ca63277b57dd88afae03221138c298bf6b19a0070",
-      "type": "macbook-air"
-    },
-    {
-      "title": "13インチMacBook Air [整備済製品] 10コアCPUと10コアGPUを搭載したApple M5チップ - スカイブルー",
-      "price": 204800,
-      "part_number": "G1L90J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1l90j/a?fnode=7f80a42303cb7875b2926fda1af41d14b8c4f99b4ed4a53c5423e67acf56354c44a54ed2af4a277e223f511b161475b9e86dd5955ae3e4bdece5b97ca63277b57dd88afae03221138c298bf6b19a0070",
       "type": "macbook-air"
     },
     {
@@ -388,13 +381,6 @@
       "part_number": "FDE34J/A",
       "url": "https://www.apple.com/jp/shop/product/fde34j/a/14%E3%82%A4%E3%83%B3%E3%83%81MacBook-Pro-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2CPU%E3%81%A810%E3%82%B3%E3%82%A2GPU%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9FApple-M5%E3%83%81%E3%83%83%E3%83%97-%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF?fnode=7f80a42303cb7875b2926fda1af41d14b8c4f99b4ed4a53c5423e67acf56354c44a54ed2af4a277e223f511b161475b9e86dd5955ae3e4bdece5b97ca63277b57dd88afae03221138c298bf6b19a0070",
       "type": "macbook-pro"
-    },
-    {
-      "title": "24インチiMac [整備済製品] 10コアCPUと10コアGPUを搭載したApple M4チップ、ギガビットEthernet - シルバー",
-      "price": 321800,
-      "part_number": "G1EJ0J/A",
-      "url": "https://www.apple.com/jp/shop/product/g1ej0j/a/24%E3%82%A4%E3%83%B3%E3%83%81imac-%E6%95%B4%E5%82%99%E6%B8%88%E8%A3%BD%E5%93%81-10%E3%82%B3%E3%82%A2cpu%E3%81%A810%E3%82%B3%E3%82%A2gpu%E3%82%92%E6%90%AD%E8%BC%89%E3%81%97%E3%81%9Fapple-m4%E3%83%81%E3%83%83%E3%83%97-%E3%82%AE%E3%82%AC%E3%83%93%E3%83%83%E3%83%88ethernet-%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC?fnode=7f80a42303cb7875b2926fda1af41d14b8c4f99b4ed4a53c5423e67acf56354c44a54ed2af4a277e223f511b161475b9e86dd5955ae3e4bdece5b97ca63277b57dd88afae03221138c298bf6b19a0070",
-      "type": "imac"
     },
     {
       "title": "Studio Display [整備済製品] - Nano-textureガラス - 傾きと高さを調整できるスタンド",
